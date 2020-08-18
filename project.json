@@ -1,0 +1,37 @@
+{
+  "title": "Juego De Memoria",
+  "author": "Tomas Velasquez",
+  "date": "29/07/20",
+  "description": {
+    "es": "Este Es Nuestro Primer Juego De Memoria"
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "cover": "Muscle Legends Roblox.PNG",
+  "thumbnail": "ItsMandarinaa Perfil.PNG",
+  "mainFile": "juego_de_memoria.jclic",
+  "activities": 1,
+  "mediaFiles": 10,
+  "totalSize": 260147,
+  "files": [
+    "diamantitopiza_perfil.png",
+    "favicon.ico",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "itsmandarinaa_perfil.png",
+    "juego_de_memoria.jclic",
+    "juego_de_memoria.jclic.js",
+    "mi_restaurante_roblox_.png",
+    "muscle_legends_roblox.png",
+    "nosoyjuanyt_perfil.png",
+    "piggy_roblox.png",
+    "project.json",
+    "siappy_perfil.png"
+  ]
+}

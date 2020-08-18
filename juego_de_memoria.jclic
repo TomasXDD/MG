@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="juego_de_memoria" version="0.1.3">
+ <settings>
+  <title>Juego De Memoria</title>
+  <revision description="created" date="7/29/20" />
+  <author name="Tomas Velasquez" />
+  <description>
+   <p>Este Es Nuestro Primer Juego De Memoria</p>
+  </description>
+  <descriptors />
+  <cover file="Muscle Legends Roblox.PNG" />
+  <thumb file="ItsMandarinaa Perfil.PNG" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>Este Es Nuestro Primer Juego De Memoria</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="Juego De Memoria" />
+ </sequence>
+ <activities>
+  <activity class="@memory.MemoryGame" name="Juego De Memoria" code="">
+   <description />
+   <messages>
+    <cell border="true" type="initial">
+     <style>
+      <font family="Segoe UI Semibold" size="17" />
+      <color foreground="0xFFFFFF" background="0x003399" border="0x66FFFF" />
+      <gradient source="0x66FFFF" dest="0x009999" angle="0" />
+     </style>
+     <p>Recuerda la posicion de las imagenes</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Segoe UI Semibold" size="17" />
+      <color foreground="0xFFFFFF" background="0x003399" />
+      <gradient source="0x66FFFF" dest="0x009999" angle="0" />
+     </style>
+     <p>Felicitaciones , Terminaste</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Segoe UI Semibold" size="17" />
+      <color foreground="0xFFFFFF" background="0x003399" />
+      <gradient source="0x66FFFF" dest="0x009999" angle="0" />
+     </style>
+     <p>Intentalo De Nuevo</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x00FFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x00DC5A" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="250.0" cellHeight="250.0" border="true" id="primary">
+    <style>
+     <color background="0xF2F4F5" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell image="Mi restaurante roblox .PNG">
+     <style>
+      <font family="Segoe UI Semibold" size="17" />
+      <color foreground="0xFFFFFF" background="0xF2F4F5" />
+     </style>
+    </cell>
+    <cell txtAlign="middle,bottom" image="NoSoyJuanYT Perfil.PNG">
+     <style>
+      <font family="Segoe UI Semibold" size="17" />
+      <color foreground="0xFFFFFF" background="0xF2F4F5" />
+     </style>
+    </cell>
+    <cell image="Siappy Perfil.PNG">
+     <style>
+      <font family="Segoe UI Semibold" size="17" />
+      <color foreground="0xFFFFFF" background="0xF2F4F5" />
+     </style>
+    </cell>
+    <cell image="Muscle Legends Roblox.PNG">
+     <style>
+      <font family="Segoe UI Semibold" size="17" />
+      <color foreground="0xFFFFFF" background="0xF2F4F5" />
+     </style>
+    </cell>
+    <cell image="Piggy Roblox.PNG">
+     <style>
+      <color background="0xF2F4F5" />
+     </style>
+    </cell>
+    <cell image="DiamantitoPiza Perfil.PNG" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="DiamantitoPiza Perfil.PNG" file="diamantitopiza_perfil.png" />
+  <media name="ItsMandarinaa Perfil.PNG" file="itsmandarinaa_perfil.png" />
+  <media name="Mi restaurante roblox .PNG" file="mi_restaurante_roblox_.png" />
+  <media name="Muscle Legends Roblox.PNG" file="muscle_legends_roblox.png" />
+  <media name="NoSoyJuanYT Perfil.PNG" file="nosoyjuanyt_perfil.png" />
+  <media name="Piggy Roblox.PNG" file="piggy_roblox.png" />
+  <media name="Siappy Perfil.PNG" file="siappy_perfil.png" />
+ </mediaBag>
+</JClicProject>
+
